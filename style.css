@@ -1,0 +1,15 @@
+body{background-image: url(img/oestranhomundodejack.jpg.jfif);
+background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment:fixed;}
+
+    .areaprincipal{width: 70%;
+        /*margin: 0 auto;*/
+        float:right;
+        margin-top: -8px;
+        margin-right: -8px;
+        padding: 20px;}
+        
+
+    
+    
