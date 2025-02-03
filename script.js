@@ -1,11 +1,12 @@
-function adiconar(){
-
+function adicionar() {
     let text = document.getElementById("texto").value;
-    let list = document.getElementById("lista").innerHTML;
 
-
-    list += "<li>" +text+ "</li>"
-    document.getElementById("lista").innerHTML = list;
-
-    document.getElementById("texto").value = null;
+    if (text.trim() !== "") {
+        let li = document.createElement("li");
+        li.textContent = text;
+        document.getElementById("lista").appendChild(li);
+        document.getElementById("texto").value = "";
+    } else {
+        alert("Por favor, insira algum texto.");
+    }
 }
